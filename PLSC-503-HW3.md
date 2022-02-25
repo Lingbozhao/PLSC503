@@ -67,7 +67,7 @@ plot(beta1_se,rho,main="Figure 1. Relationship between the SE of beta1 and corre
      ylab="Correlation of X1 and X2")
 ```
 
-![](PLSC-503-HW3_files/figure-gfm/cars-1.png)<!-- -->
+![](Figs/cars-1.png)<!-- -->
 
 ## Question 1.2
 
@@ -131,7 +131,7 @@ plot1= plot(beta1_se,rho,main="Figure 2. N=100 ",
      ylab="Correlation of X1 and X2")
 ```
 
-![](PLSC-503-HW3_files/figure-gfm/question12-1.png)<!-- -->
+![](Figs/question12-1.png)<!-- -->
 
 ``` r
 beta1_se<- NULL 
@@ -185,7 +185,7 @@ plot2=plot(beta1_se,rho,main="Figure 3. N=1000 ",
      ylab="Correlation of X1 and X2")
 ```
 
-![](PLSC-503-HW3_files/figure-gfm/question12-2.png)<!-- -->
+![](Figs/question12-2.png)<!-- -->
 
 ``` r
 beta1_se<- NULL 
@@ -239,9 +239,11 @@ plot3=plot(beta1_se,rho,main="Figure 4. N=10000 ",
      ylab="Correlation of X1 and X2")
 ```
 
-![](PLSC-503-HW3_files/figure-gfm/question12-3.png)<!-- -->
+![](Figs/question12-3.png)<!-- -->
 
-![](PLSC-503-HW3_files/figure-gfm/pressure-1.png)<!-- -->
+From the Figure 2 to the Figure 4,
+
+![](Figs/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
